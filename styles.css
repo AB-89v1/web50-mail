@@ -1,0 +1,36 @@
+textarea {
+    min-height: 400px;
+}
+div.mailbox_item {
+    border: solid black 1px;
+    padding: 5px 0px 5px 5px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 4px #888888;
+    width:60%;
+}
+#message_view {
+    
+}
+#message {
+    width: 75%;
+}
+#message_to_from {
+    margin-bottom: 5px;
+}
+#message_subject {
+    font-weight: bold;
+    border-bottom: solid gray 1px;
+    margin-bottom: 0px;
+}
+#message_timestamp {
+    font-style: italic;
+    font-weight: lighter;
+}
+#message_body {
+    padding: 5px 0px 5px 3px;
+    margin-top: 10px;
+}
+#archive_button {
+    float: right;
+}
